@@ -1,0 +1,92 @@
+body{
+	background-color: #ffffff;
+	margin: 0;
+	font-family: 'Josefin Sans';
+}
+/*header*/
+header{
+	position: fixed;
+	top:0;
+	margin: 0;
+	width: 100%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	display: grid;
+	grid-template-columns: auto auto;
+}
+#levo{
+	font-size: 25px;
+	width: 200px;
+	padding-bottom:11px;
+	margin:0;
+	padding: 7px 10px 10px 20px;
+	margin: 0;
+}
+#desno{
+	font-size: 20px;
+	padding-bottom:11px;
+	margin:0;
+	padding: 10px 10px 10px 20px;
+	margin: 0;
+	justify-self: end;
+
+}
+.adesno{
+	padding-right:20px;
+	text-decoration: none;
+	color: #000000;
+	}
+
+.alevo{
+	padding-right:20px;
+	text-decoration: none;
+	color: #000000;
+	}
+a:hover {
+	color: gray;
+}
+
+main{
+ padding-top: 40px;
+	
+}
+.maindiv{
+	display: grid;
+	grid-template-columns: auto auto;
+	margin: 5vh 5vw;
+	grid-gap: 5vw;
+	}
+
+
+.tekst{
+	font-family:'Josefin Sans', Arial,sans-serif;
+	font-size: 20px;
+	text-align: justify;
+	line-height: 28px;
+	color:#000000;
+	font-weight: 300;
+}
+#content1::after{
+    content: "\a";
+    white-space: pre;
+
+}
+#content2::after{
+    content: "\a";
+    white-space: break-spaces;
+
+}
+#content3::after{
+    content: "\a";
+    white-space: pre;
+}
+#content4::after{
+    content: "\a";
+    white-space: pre;
+}
+.gif img {
+	margin: 100px, 100px,0,0; /*vo ne radi proveri zasto*/
+	width:65vw;
+	height: auto;
+	
+}
