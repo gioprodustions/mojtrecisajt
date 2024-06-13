@@ -14,12 +14,12 @@
 <script>
 	var i=0;
 	var intervalId = setInterval(function() {
-		var c = i++%5;
+		var c = i++%6;
 		c+=1;
 		console.log('p',c)
 		let elem = document.getElementById(c);
 		elem.className='dva';
-		c=c%5;
+		c=c%6;
 		c+=1;
 		console.log('d',c)
 		let elem2 = document.getElementById(c);
@@ -52,6 +52,9 @@
 		</a>
 		<a id='5' class='dva' href='stilske.html'>
 			<img src='frames/stilske.png'>
+		</a>
+		<a id='5' class='dva' href='tipo.html'>
+			<img src='frames/slovo.png'>
 		</a>
 	</main>
 </body>
