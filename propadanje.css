@@ -13,7 +13,7 @@ header{
 	padding-bottom: 5px;
 	display: grid;
 	grid-template-columns: auto auto;
-	background-color: #ffffff;
+	background-color: #;
 }
 #levo{
 	font-size: 25px;
@@ -35,14 +35,14 @@ header{
 .adesno{
 	padding-right:20px;
 	text-decoration: none;
-	color: black;
+	color: white;
 
 }
 
 .alevo{
 	padding-right:20px;
 	text-decoration: none;
-	color: black;
+	color: white;
 	}
 
 a:hover{
