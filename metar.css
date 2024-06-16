@@ -1,0 +1,84 @@
+body{
+	background-color: #ffffff;
+	margin: 0;
+	font-family: 'Josefin Sans';
+	
+}
+/*header*/
+header{
+	position: fixed;
+	top:0;
+	margin: 0;
+	width: 100%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	display: grid;
+	grid-template-columns: auto auto;
+	background-color: #ffffff;
+}
+#levo{
+	font-size: 25px;
+	width: 200px;
+	padding-bottom:11px;
+	margin:0;
+	padding: 7px 10px 10px 20px;
+	margin: 0;
+}
+#desno{
+	font-size: 20px;
+	padding-bottom:11px;
+	margin:0;
+	padding: 10px 10px 10px 20px;
+	margin: 0;
+	justify-self: end;
+
+}
+.adesno{
+	padding-right:20px;
+	text-decoration: none;
+	color: #1319cf;
+	}
+
+.alevo{
+	padding-right:20px;
+	text-decoration: none;
+	color: #1319cf;
+	}
+
+
+.alevo:hover{
+	color:grey;
+}
+
+.adesno:hover{
+	color:grey;
+}
+
+.tekst {
+	font-family:'Josefin Sans', Arial,sans-serif;
+	font-size: 20px;
+	text-align: center;
+	line-height: 28px;
+	margin:4vh 20vw;
+	color:#1319cf;
+	font-weight: 300;
+}
+
+/*header*/
+
+.Projekat img{
+  display: block;
+  height: 100%;
+  margin: auto;
+  padding-top: 200px;
+
+
+}
+
+
+
+
+
+
+
+
